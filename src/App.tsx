@@ -93,7 +93,7 @@ const Dashboard = () => {
               />
               <Route
                 path="/"
-                element={<div>Welcome to the Calculator Dashboard!</div>}
+                element={<CreateCalculator />}
               />
             </Routes>
           </div>
