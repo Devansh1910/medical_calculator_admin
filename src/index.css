@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input, textarea {
+    @apply p-2 border rounded-md;
+  }
+}
+
+.ProseMirror {
+  @apply outline-none;
+}
+
+.ProseMirror p {
+  @apply mb-2;
+}
+
+.ProseMirror ul {
+  @apply list-disc pl-6 mb-2;
+}
+
+.ProseMirror ol {
+  @apply list-decimal pl-6 mb-2;
+}
